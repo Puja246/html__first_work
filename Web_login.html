@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+    <style>
+    body {
+    /* background-image: url(images/1st.avif); */
+    /* background-image: url(images/bluewhale.png); */
+    background: rgb(16,37,57);
+background: linear-gradient(90deg, rgb(16, 27, 38) 0%, rgba(11,41,66,1) 0%, rgb(219, 225, 230) 100%);
+
+background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+img{
+    display: block;
+    margin: auto;
+}
+.container {
+    width: 350px;
+    margin: 5px auto;
+    padding: 40px;
+    border-radius: 70px;
+    border: 3px solid;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+}
+
+.container h2 {
+    margin-bottom:20px;
+    color: white;
+}
+.form-group {
+    margin-bottom: 20px;
+
+}  
+
+.form-group input {
+    width: 100%;
+    padding: 15px;
+    border: 2px solid #ddd;
+    border-radius: 25px;
+    border-color: black;
+    outline: none;
+    transition: border-color 0.3s ease;
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.form-group input:focus {
+    border-color: #ff0088;
+}
+
+button {
+    width: 150px;
+    padding: 11px;
+    background-color: black;
+    color: #dddddd;
+    border: black;
+    font-size: 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+button:hover {
+    background-color: black;
+}
+button a{
+    text-decoration: none;
+    color: #ddd;
+}
+</style>
+</head>
+<body><u></u>
+    
+    <img src="images/puc_logo.png">
+    <div class="container">
+        <h1 style="color: blue;font-size: 50px;">PUAIS</h1>
+        <form>
+        <h2 style="font-family: Georgia, 'Times New Roman', Times, serif;"><i>Student Login</i></h2>
+            <div class="form-group">
+                <input type="text" id="username" name="username" placeholder="Student ID" required>
+            </div>
+            <div class="form-group">
+            <input type="password" id="password" name="password" placeholder="Password" required>
+            </div>
+            <div class="form-group">
+            <p align="left"><a href="#" style="color:white;font-family: Georgia, 'Times New Roman', Times, serif;"><b>Forget password</b></a></p>
+            </div>
+            <button type="submit"><a href="http://127.0.0.1:5500/check.html"> Login</a></button>
+        </form>
+    </div>
+</body>
+</html>
